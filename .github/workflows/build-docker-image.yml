@@ -48,7 +48,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           # Menggunakan env variable OWNER_LC yang sudah di-lowercase
           tags: |
-            ghcr.io/${{ env.OWNER_LC }}/railway:2025
+            ghcr.io/${{ env.OWNER_LC }}/railway:2026
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
